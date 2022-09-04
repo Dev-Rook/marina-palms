@@ -1,10 +1,10 @@
 import React, {FC} from 'react'
 
-// import styles from "./Styles/Nav.module.css";
+import styles from "./Styles/Nav.module.css";
 
 const Nav: FC = () => {
   return (
-    <nav>Nav</nav>
+    <nav className={styles.Nav}>Nav</nav>
   )
 }
 
